@@ -119,7 +119,7 @@ def bd():
     print(f'{G1}[{A}≈{G1}]{G1} EXAMPLE {A}➢{A} 3000{G}/{A}5000{G}/{A}10000{G}/{A}99999');linex()
     limit = int(input(f'{G1}[{A}?{G1}]{G1} CHOICE  {A}➢{G1} '))
     for x in range(limit):
-        nmp = "". join(random.choice(string.digits) for _ in range(500))
+        nmp = "". join(random.choice(string.digits) for _ in range(8))
         user.append(nmp)
     clear()
     with ThreadPool(max_workers=30) as sexy:
